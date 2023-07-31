@@ -1,0 +1,29 @@
+{
+    "name": "batons0/getresponse",
+    "description": "GetResponse API v3 client library.",
+    "homepage": "https://github.com/Batons0/getresponse-api-php",
+    "keywords": ["GetResponse", "api", "email"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pawel Maslak",
+            "email": "pawel.maslak@getresponse.com"
+        },
+        {
+            "name": "Grzegorz Struczynski",
+            "email": "grzegorz.struczynski@getresponse.com"
+        },
+        {
+            "name": "Tomasz Żuk",
+            "email": "batons0@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": ["src/GetResponseAPI3.class.php"]
+    }
+}

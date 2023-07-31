@@ -1,0 +1,27 @@
+{
+    "name": "spondonit/ar-php",
+    "description": "contribution to Ar-PHP Library, namespace-psr4 added",
+     
+    "homepage": "https://github.com/spn4/ar-php",
+    "license": "LGPL-3.0",
+    "authors": [
+		{
+			"email":"spn4@spondonit.com",
+			"name":"Tariqul Islam",
+			"homepage":"http://spondonit.com/"
+		},
+        {
+            "name": ":Tariqul",
+            "email": "tariqulislamrc@gmail.com" 
+        }
+    ],
+    "require": { 
+        "php" : "^7.4|^8.0"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "Spondonit\\Arabic\\": "src/Arabic"
+        }
+    } 
+  
+}
