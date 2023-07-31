@@ -70,8 +70,8 @@ class AddStaticPage extends Migration
             $check5 = FrontPage::where('slug', '/instructors')->first();
             if (!$check5) {
                 $check5 = new FrontPage();
-                $check5->name = 'InstructorsHHK';
-                $check5->title = 'InstructorsKKKJ';
+                $check5->name = 'Instructors';
+                $check5->title = 'Instructors';
                 $check5->sub_title = 'Instructors';
                 $check5->details = 'Instructors Page';
                 $check5->slug = '/instructors';
